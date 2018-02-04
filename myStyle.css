@@ -1,6 +1,97 @@
-.jumbotron {
-	background-color: #DE1B1B;
-	color: #FFFFFF;
+body {
+	background-color: white !important;
+	font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.jumbotron { 
+    background-color: #DE1B1B; /* Orange */
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #DE1B1B;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #DE1B1B !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.panel {
+    border: 1px solid #C1E1A6; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #118C4E;
+    background-color: #fff !important;
+    color: #118C4E;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #C1E1A6 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #C1E1A6;
+    color: #fff;
 }
 
 .col-md-8 .btn:hover {
@@ -14,13 +105,4 @@
 	color: #ffffff;
 }
 
-.jumbotron {
-    font-family: Montserrat, sans-serif !important;
-}
 
-body {
-	background-color: #FFFFFF;
-	font: 400 15px Lato, sans-serif;
-    line-height: 1.8;
-    color: #2B2B2B;
-}
