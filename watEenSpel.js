@@ -18,4 +18,7 @@ function makeBoxes() {
 		.attr("class", "col-sm-6 form-group")
 		.append("input")
 		.attr("class", "form-control")
+		.attr("id", "name")
+		.attr("name", "name")
+		.attr("placeholder", "Naam")
 }
