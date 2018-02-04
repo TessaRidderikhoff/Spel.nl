@@ -1,0 +1,26 @@
+.jumbotron {
+	background-color: #DE1B1B;
+	color: #FFFFFF;
+}
+
+.col-md-8 .btn:hover {
+    border: 1px solid #DE1B1B;
+    background-color: #FFFFFF !important;
+    color: #DE1B1B;
+}
+
+.col-md-8 .btn {
+	background-color: #DE1B1B;
+	color: #ffffff;
+}
+
+.jumbotron {
+    font-family: Montserrat, sans-serif !important;
+}
+
+body {
+	background-color: #FFFFFF;
+	font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #2B2B2B;
+}
